@@ -1,7 +1,5 @@
 import asyncio
 import os
-import re
-import traceback
 from time import time
 from traceback import format_exc
 from requests.exceptions import MissingSchema
@@ -13,13 +11,9 @@ from telethon.errors.rpcerrorlist import (
     ChatSendMediaForbiddenError,
 )
 
-from AyiinXd import CMD_HANDLER as HNDLR
 from AyiinXd import LOGS, bot
-from AyiinXd.ayiin import eod, eor
 
-from telethon import events
-from telethon.tl import functions, types
-from telethon.utils import get_display_name
+from telethon.tl import functions
 
 try:
     from yt_dlp import YoutubeDL
@@ -32,7 +26,6 @@ try:
 except ImportError:
     VideosSearch = None
 
-from Stringyins import get_string
 
 from ._baseyins import AyiinDB
 from .tools import bash, downloader

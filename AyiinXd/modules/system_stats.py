@@ -21,9 +21,9 @@ import psutil
 from pytgcalls import __version__ as pytgcallss
 from telethon import __version__, version
 
-from AyiinXd import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_TEKS_CUSTOM, BOT_VER, CHANNEL
+from AyiinXd import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_TEKS_CUSTOM, BOT_VER
 from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, GROUP, StartTime
+from AyiinXd import CMD_HELP, StartTime
 from AyiinXd.ayiin import __version__ as py_ver
 from AyiinXd.ayiin import (
     AyiinDB,

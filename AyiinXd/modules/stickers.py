@@ -38,7 +38,7 @@ from AyiinXd import S_PACK_NAME as custompack
 from AyiinXd import tgbot
 from AyiinXd.modules.sql_helper.globals import addgvar, gvarstatus
 from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.ayiin.misc import animator, create_quotly
+from AyiinXd.ayiin.misc import animator
 from Stringyins import get_string
 
 KANGING_STR = [

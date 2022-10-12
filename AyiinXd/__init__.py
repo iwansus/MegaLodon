@@ -625,7 +625,6 @@ with bot:
                 )
             elif query.startswith("lang"):
                 languages = get_languages()
-                text = "List Of Available Languages.",
                 tutud = [
                     Button.inline(
                         f"{languages[yins]['asli']} [{yins.lower()}]",

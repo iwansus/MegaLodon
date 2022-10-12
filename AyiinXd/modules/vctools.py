@@ -15,14 +15,13 @@ import asyncio
 from pytgcalls.exceptions import NotConnectedError
 
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
-from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
 from telethon.tl.functions.phone import DiscardGroupCallRequest as stopvc
 from telethon.tl.functions.phone import EditGroupCallTitleRequest as settitle
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
 
 from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
+from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd, eod, eor
 from AyiinXd.events import register
 from AyiinXd.ayiin.pytgcalls import Ayiin, CLIENTS, VIDEO_ON
@@ -51,7 +50,7 @@ async def start_voice(c):
         Xd = Ayiin(c.chat_id)
         await Xd.make_vc_active()
         await xnxx.edit(get_string("stvc_2"))
-    except Exception as ex:
+    except Exception:
         await eod(xnxx, get_string("error_1").format(e))
 
 

@@ -19,10 +19,9 @@ import os
 from telethon import Button, custom
 
 from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot, tgbot
+from AyiinXd import CMD_HELP, tgbot
 from AyiinXd.ayiin import ayiin_cmd, eor
 from Stringyins import get_languages, language, get_string
-from .button import BTN_URL_REGEX
 
 
 def build_keyboards(buttons):
@@ -96,7 +95,7 @@ async def settt(event):
 
 @ayiin_cmd(pattern="string(?:\\s|$)([\\s\\S]*)")
 async def test_string(event):
-    ayiin = await eor(event, get_string("com_1"))
+    await eor(event, get_string("com_1"))
     buttons = build_keyboards(Y_BUTTONS)
     if buttons:
         try:

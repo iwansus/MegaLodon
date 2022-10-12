@@ -12,7 +12,7 @@ from telethon.errors.rpcerrorlist import ChatSendMediaForbiddenError, MessageIdI
 
 from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP, LOGS, INLINE_PIC
-from AyiinXd.ayiin import ayiin_cmd, bash, eod, eor
+from AyiinXd.ayiin import ayiin_cmd, bash, eor
 from AyiinXd.ayiin.pytgcalls import (
     add_to_queue,
     mediainfo,
