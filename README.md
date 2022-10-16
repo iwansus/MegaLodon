@@ -1,4 +1,4 @@
- <h1 align="center">㋱ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋱h1>
+ <h1 align="center">㋱ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋱<h1>
 
 <a href="https://github.com/iamuput/Uputt-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/iamuput/Uputt-Userbot)
