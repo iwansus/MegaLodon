@@ -1,18 +1,18 @@
- <h1 align="center">㋱ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋱<h1>
+ <h1 align="center">㋱ MegaLodon ㋱<h1>
 
 <a href="https://github.com/iamuput/Uputt-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/iamuput/Uputt-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/iamuput/Uputt-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/iamuput/Uputt-Userbot/dashboard)
 [![GitHub Forks](https://img.shields.io/github/forks/iamuput/Uputt-Userbot?&logo=github)](https://github.com/iamuput/Uputt-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/iamuput/Uputt-Userbot?&logo=github)](https://github.com/iamuput/Uputt-Userbot/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/iamuput/Uputt-Userbot?&logo=github)](https://github.com/iwansus/MegaLodon/stargazers)
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/0ad4340e83e612e14352b.jpg">
+  <img src="https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg">
 </p>
 
-👩‍💻 Uᴘᴜᴛᴛ U𝚂ᴇʀʙᴏᴛ adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 Megalodon U𝚂ᴇʀʙᴏᴛ adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -47,7 +47,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/iamuput/Uputt-Userbot`
+ • `git clone https://github.com/iwansus/MegaLodon`
 
  • `cd Uputt-Userbot`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Uputt-Userbot`
+ • `screen -S MegaLodon`
 
  • `bash start`
 
@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/iamuput/Uputt-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/iwansus/MegaLodon"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -85,9 +85,10 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@ohgitunih](https://t.me/Uputtsupport) untuk info Update bot dan Gabung Group [@Uputtsupport](https://t.me/Uputtsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Uputt-Userbot.
+Follow Channel [@iwansssssss](https://t.me/iwansssssss) untuk info Update bot dan Gabung Group [@wansnonsupport](https://t.me/wansnonsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Uputt-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
+-  [Iwan](https://github.com/iwansus) : Owner
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
 -  [RaphielGang](https://github.com/RaphielGang) : Paperplane
 -  [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
@@ -102,13 +103,14 @@ Follow Channel [@ohgitunih](https://t.me/Uputtsupport) untuk info Update bot dan
 -  [IamUput](https://github.com/iamuput/Uputt-Userbot): Uputt-Userbot
 
 ## © Credits
+-  [Iwan](https://github.com/iwansus) for [Iwan](https://github.com/iwansus/MegaLodon)
 -  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 -  [sip-Userbot](https://github.com/sip-Userbot) for [Nande-Telethon](https://github.com/sip-Userbot/Nande-Telethon)
 -  [IamUput](https://github.com/iamuput) for [Uputt-Userbot](https://github.com/iamuput/Uputt-Userbot)
-## License
-Licensed under [Raphielscape Public License](https://github.com/iamuput/Uputt-Userbot/blob/Uputt-Userbot/LICENSE) - Version 1.d, February 2020
 
+#  Thanks Buat Para Delployers Telegram
+-  [Iwan](https://github.com/iwansus)
 
