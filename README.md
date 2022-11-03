@@ -1,11 +1,11 @@
  <h1 align="center">㋱ MegaLodon ㋱<h1>
 
-<a href="https://github.com/iamuput/Uputt-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/iamuput/Uputt-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/iamuput/Uputt-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/iamuput/Uputt-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/iamuput/Uputt-Userbot?&logo=github)](https://github.com/iamuput/Uputt-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/iamuput/Uputt-Userbot?&logo=github)](https://github.com/iwansus/MegaLodon/stargazers)
+<a href="https://github.com/iwansus/MegaLodon/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/iwansus/MegaLodon)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/iwansus/MegaLodon/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/iwansus/MegaLodon/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/iwansus/MegaLodon?&logo=github)](https://github.com/iwansus/MegaLodon/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/iwansus/MegaLodon?&logo=github)](https://github.com/iwansus/MegaLodon/stargazers)
 
 
 <p align="center">
@@ -79,7 +79,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Bot Heroku</b></summary>
 <br>
 
-<p><a href="https://telegram.dog/XTZ_HerokuBot?start=aWFtdXB1dC9VcHV0dC1Vc2VyYm90IFVwdXR0LVVzZXJib3Q"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
+<p><a href="https://telegram.dog/XTZ_HerokuBot?start=aXdhbnN1cy9NZWdhTG9kb24gaXdhbnN1cy0vLU1lZ2FMb2Rvbg"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
 
 </details>
 
