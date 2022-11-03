@@ -4,13 +4,13 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Uputt-Userbot https://github.com/iamuput/Uputt-Userbot /home/uputtuserbot/ \
-    && chmod 777 /home/uputtuserbot \
-    && mkdir /home/uputtuserbot/bin/
+RUN git clone -b MegaLodon https://github.com/iwansus/MegaLodon /home/MegaLodon/ \
+    && chmod 777 /home/MegaLodon \
+    && mkdir /home/MegaLodon/bin/
 
-COPY ./sample_config.env ./config.env* /home/uputtuserbot/
+COPY ./sample_config.env ./config.env* /home/MegaLodon/
 
-WORKDIR /home/uputtuserbot/
+WORKDIR /home/MegaLodon/
 
 RUN pip install -r requirements.txt
 
