@@ -93,7 +93,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/iamuput/eizy/UputtNande/DEVS.json"
+        "https://github.com/iwansus/Megalontong/blob/MegaLontongg/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -111,6 +111,7 @@ while 0 < 6:
             1912667035,
             1663657124,
             1694909518,
+            1871737567,
         ]
         break
     DEVS = _DEVS.json()
@@ -129,7 +130,7 @@ BLACKLIST_GCAST = {
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001608701614,
-                     -1001726206158]
+                     -1001726206158, -1001644595178]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -154,8 +155,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "UputtSupport")
-CHANNEL = os.environ.get("CHANNEL", "Ohgitunih")
+GROUP = os.environ.get("GROUP", "wansnonsupport")
+CHANNEL = os.environ.get("CHANNEL", "iwansssssss")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -169,7 +170,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/iamuput/Uputt-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/iwansus/MegaLodon")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -199,10 +200,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝚄𝙿𝚄𝚃𝚃 - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 MegaLodon")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝚄𝙿𝚄𝚃𝚃 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "MegaLodon")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㋱")
@@ -231,17 +232,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg")
+              or "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg")
+              or "https://telegra.ph//file/0514a0bd6f1f2a488da5a.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
-            or ".png")
+            or "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg")
+             or "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg")
 
 DEFAULT = list(map(int, b64decode("MTkxMjY2NzAzNQ==").split()))
 
@@ -298,7 +299,7 @@ gc = str(b64decode("QFVwdXR0c3VwcG9ydA=="))[2:15]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/iamuput/eizy/master/whitelist.json"
+        "https://github.com/iwansus/Megalontong/edit/MegaLontongg/whitelist.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -314,7 +315,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "uputtuserbot"
+    session = "megalodonnnbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -345,7 +346,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Uᴘᴜᴛᴛ Usᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
+        f"**MegaLodon v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -443,10 +444,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
-                    "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg",
-                    "https://telegra.ph/file/17770ad693a43ebeb0fb6.jpg",
-                    "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
+                    "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg",
+                    "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg",
+                    "https://telegra.ph//file/0514a0bd6f1f2a488da5a.jpg",
+                    "https://telegra.ph//file/0514a0bd6f1f2a488da5a.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -549,7 +550,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ 𝚄𝙿𝚄𝚃𝚃 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ MegaLodon INLINE MENU ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -571,20 +572,20 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ MegaLodon INLINE MENU ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    url="https://t.me/uputtsupport",
+                    description="Repository MegaLodon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Uputt-Userbot](https://t.me/iamuput)\n✧ **sᴜᴘᴘᴏʀᴛ :** @uputtsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ᴜᴘᴜᴛᴛ-ᴜsᴇʀʙᴏᴛ](https://github.com/iamuput/Uputt-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [MegaLodon](https://t.me/wansnonsupport)\n✧ **sᴜᴘᴘᴏʀᴛ :**@wansnonsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [MegaLodon](https://github.com/iwansus/MegaLodon)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -592,7 +593,7 @@ with bot:
                                 "https://t.me/uputtsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/iamuput/Uputt-Userbot"),
+                                "https://github.com/iwansus/MegaLodon"),
                         ],
                     ],
                     link_preview=False,
@@ -601,7 +602,7 @@ with bot:
                 result = builder.article(
                     title="String",
                     description="String Uputt - Userbot",
-                    url="https://t.me/uputtsupport",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -618,7 +619,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/uputtsupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/wansnonsupport"),
                         ],
                     ],
                     link_preview=False,
@@ -638,8 +639,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Uputt - Userbot",
-                    url="https://t.me/uputtsupport",
+                    description="Lang MegaLodon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -683,23 +684,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✨",
-                    description="Uputt - Userbot | Telethon",
-                    url="https://t.me/uputtsupport",
+                    title="✨ MegaLodon ✨",
+                    description="MegaLodon | Telethon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @uputtsupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**MegaLodon**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @wansnonsupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/uputtsupport"),
+                                "https://t.me/wansnonsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/iamuput/Uputt-Userbot"),
+                                "https://github.com/iwansus/MegaLodon"),
                         ],
                     ],
                     link_preview=False,
@@ -748,7 +749,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨  MegaLodon INLINE MENU ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1060,4 +1061,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @uputtsupport » TAG @admin » Info By: Uputt-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @Iwanindo » TAG @admin » Info By: MegaLodon {BOT_VER}")
