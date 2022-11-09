@@ -585,12 +585,12 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [MegaLodon](https://t.me/wansnonsupport)\n✧ **sᴜᴘᴘᴏʀᴛ :**@wansnonsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [MegaLodon](https://github.com/iwansus/MegaLodon)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**MegaLodon**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [MegaLodon](https://t.me/Iwanindo)\n✧ **sᴜᴘᴘᴏʀᴛ :**@wansnonsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [MegaLodon](https://github.com/iwansus/MegaLodon)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/uputtsupport"),
+                                "https://t.me/wansnonsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/iwansus/MegaLodon"),
@@ -601,7 +601,7 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Uputt - Userbot",
+                    description="String MegaLodon",
                     url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         logoyins,
