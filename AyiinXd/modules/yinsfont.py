@@ -13,7 +13,6 @@
 #            Jangan Hapus Credit Ngentod
 # ========================×========================
 
-import request
 
 from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
