@@ -34,6 +34,11 @@ async def get_call(event):
     return xx.call
 
 
+def user_list(l, n):
+    for i in range(0, len(l), n):
+        yield l[i : i + n]
+
+
 @ayiin_cmd(pattern="startvc$", group_only=True)
 @register(pattern=r"^\.startvcs$", sudo=True)
 async def start_voice(c):
@@ -50,8 +55,8 @@ async def start_voice(c):
         Xd = Ayiin(c.chat_id)
         await Xd.make_vc_active()
         await xnxx.edit(get_string("stvc_2"))
-    except Exception:
-        await eod(xnxx, get_string("error_1").format(e))
+    except Exception as ex:
+        await eod(xnxx, get_string("error_1").format(ex))
 
 
 @ayiin_cmd(pattern="stopvc$", group_only=True)
