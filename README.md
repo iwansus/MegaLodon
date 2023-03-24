@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@ohgitunih](https://t.me/Uputtsupport) untuk info Update bot dan Gabung Group [@Uputtsupport](https://t.me/Uputtsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Uputt-Userbot.
+Follow Channel [@amneseey0u](https://t.me/Uputtsupport) untuk info Update bot dan Gabung Group [@Uputtsupport](https://t.me/Uputtsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Uputt-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
