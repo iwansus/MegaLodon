@@ -1,21 +1,21 @@
 {
   "name": "Uputt-Userbot",
-  "description": "[Uputt-Userbot] Selamat pakai, Luh songong gw takol",
+  "description": "[Uputt-Userbot] Selamat pakai, Luh songong gw Cipok",
   "logo": "https://telegra.ph/file/f4c1d8888bf604781c163.jpg",
-  "keywords": ["telegram", "userbot", "Uput-Userbot ", "modular", "python"],
+  "keywords": ["telegram", "userbot", "Uputt-Userbot", "modular", "python"],
   "repository": "https://github.com/iamuput/Uputt-Userbot",
-  "stack": "heroku-22",
+  "stack": "container",
   "env": {
     "API_KEY": {
       "description": "Dapatkan API KEY di Grup » https://t.me/uputtsupport » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup » https://t.me/uputtsupport » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di Grup »  https://t.me/uputtsupport » Lalu ketik /get api atau di web my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/uputtsupport » Lalu ketik /get string",
+      "description": "Dapatkan String Session di Grup »  https://t.me/uputtsupport » Lalu ketik /get string",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -49,9 +49,9 @@
     }
   ],
   "formation": {
-    "worker": {
+    "ayiin": {
       "quantity": 1,
-      "size": "eco"
+      "size": "basic"
     }
   }
 }
