@@ -30,7 +30,7 @@ async def _(event):
     if not user:
         return
     uid = user.id
-    chat = "@SangMataInfo_bot"
+    chat = "@SangMata_beta_bot"
     yinsevent = await eor(event, get_string("com_1"))
     async with event.client.conversation(chat) as conv:
         try:
